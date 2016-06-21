@@ -1,0 +1,20 @@
+{
+  "name": "epl-gedapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha -w",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "superagent": "^2.0.0"
+  }
+}
